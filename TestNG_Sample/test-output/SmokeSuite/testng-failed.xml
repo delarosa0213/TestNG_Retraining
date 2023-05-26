@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Demonstrating Assert(failed)">
+    <classes>
+      <class name="TestNG_Exercise.TestNG_Assert">
+        <methods>
+          <include name="add"/>
+        </methods>
+      </class> <!-- TestNG_Exercise.TestNG_Assert -->
+    </classes>
+  </test> <!-- Demonstrating Assert(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "SmokeSuite">
+	<test name = "Demonstrating Parameters">
+		<parameter name="username" value="Red"/>
+        <parameter name="password" value="red12345"/>
+		<classes>
+		<class name = "TestNG_Exercise.TestNG_Parameters"/>
+		
+		</classes>
+		
+	</test>
+	
+	
+</suite>

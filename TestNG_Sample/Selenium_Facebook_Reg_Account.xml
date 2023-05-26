@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Facebook Registration Test Suite">
+  <test name="Facebook Registration Tests">
+    <parameter name="fstName" value="Red" />
+    <parameter name="lstName" value="Blue" />
+    <parameter name="emailAdd" value="sample@example.com" />
+    <parameter name="reenterEmail" value="sample@example.com" />
+    <parameter name="pass" value="password123" />
+
+    <classes>
+      <class name="SeleniumAssignment.Selenium_Facebook_Reg">
+        <methods>
+          <include name="testSuccessfulRegistration" />
+          <include name="testFailedRegistrationDueToInvalidEmail" />
+          <include name="testFailedRegistrationDueToShortPassword" />
+          <include name="testFailedRegistrationDueToMissingFirstName" />
+          <include name="testFailedRegistrationDueToMissingLastName" />
+          <include name="testFailedRegistrationDueToMissingEmail" />
+          <include name="testFailedRegistrationDueToMissingPassword" />
+          <include name="testFailedRegistrationDueToInvalidBirthday" />
+          <include name="testFailedRegistrationDueToMissingGender" />
+          <include name="testFailedRegistrationDueToInvalidCredentials" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
